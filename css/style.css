@@ -174,4 +174,8 @@ solid 2px border using #45ADAD,
     .gallery{
         display: none;
     }
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
