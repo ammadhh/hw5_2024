@@ -174,10 +174,12 @@ solid 2px border using #45ADAD,
     .gallery{
         display: none;
     }
+    /* Removes Date and Time from the top of printed pages */
     @page {
         margin-top: 0;
         margin-bottom: 0;
     }
+    /* Adds a thumbs up to the 2nd list item within the card */
     .card ul li:nth-child(2):after {
         content: '👍';
     }
