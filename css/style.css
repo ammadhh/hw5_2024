@@ -178,4 +178,7 @@ solid 2px border using #45ADAD,
         margin-top: 0;
         margin-bottom: 0;
     }
+    .card ul li:nth-child(2):after {
+        content: '👍';
+    }
 }
